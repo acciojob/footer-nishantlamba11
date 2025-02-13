@@ -1,1 +1,89 @@
 /* your code here */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #444;
+}
+
+.logo-details .logo_name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.media-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.media-icons i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.media-icons i:hover {
+    color: #1da1f2;
+}
+
+.link-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box {
+    list-style: none;
+    padding: 0;
+    min-width: 150px;
+}
+
+.box .link_name {
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
+
+.box li {
+    margin: 5px 0;
+}
+
+.box li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.box li a:hover {
+    color: #1da1f2;
+    text-decoration: underline;
+}
+
+.bottom-details {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
