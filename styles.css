@@ -36,13 +36,13 @@ footer {
     gap: 15px;
 }
 
-.media-icons i {
+.media-icons a {
     font-size: 20px;
     cursor: pointer;
     transition: color 0.3s;
 }
 
-.media-icons i:hover {
+.media-icons a:hover {
     color: #1da1f2;
 }
 
